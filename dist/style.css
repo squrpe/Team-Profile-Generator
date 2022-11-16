@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    font-family: Georgia, serif;
+}
+
+header {
+    color: white;
+    padding: 5px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.container {
+    margin: 40px auto;
+}
+
+.card-body {
+    box-shadow: 10px 10px 20px white;
+}
+
+.cardgroup {
+    padding: 0px 25px 45px 25px;
+}
+
+.title {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.information {
+    padding: 10px;
+}
