@@ -1,74 +1,80 @@
+
 # Team Profile Generator
 
-   ![Github license](https://img.shields.io/badge/License-MIT-yellow)
+![Github license](https://img.shields.io/badge/License-MIT-yellow)
 
-  ## Description
-  This project is a Node.js command-line application that takes in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person. 
+## Description
 
-  ## Table of Contents 
-  - [Description](#description)
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Testing](#testing)
-  - [Licensing](#licensing)
-  - [Questions](#questions)
+Team Profile Generator is a Node.js command-line application that streamlines the process of creating a professional team summary webpage. By prompting the user for information about each team member (Manager, Engineer, Intern), it generates a polished, responsive HTML file with all the details, styled for clarity and modern presentation. This tool is ideal for software teams who want to quickly showcase their members and roles.
 
-  ## Installation
-   Below is an example of how you can download the project onto your own device:
+## Table of Contents
+- [Description](#description)
+- [Built With](#built-with)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Testing](#testing)
+- [Credits](#credits)
+- [Contact](#contact)
+- [License](#license)
 
-  1. Open your devices terminal application
-  2. Locate to the correct file destination that you are wanting to download this project to
-  3. Clone the repository using this link: 
-      ```md
-          git clone https://github.com/squrpe/Team-Profile-Generator
-      ```
-  4. You may get prompted to input you github details, thus do so. Otherwise, the project will now be succesfully installed onto your device.
+## Built With
+- JavaScript (ES6+)
+- Node.js
+- Inquirer.js (for CLI prompts)
+- Jest (for testing)
 
-  This project contains:
-  - Javascript
-  - Node.js
+## Installation
 
-  You will need to download the suitable extensions for Javascript and Node.js to run the application in the command line.
+To install and set up the Team Profile Generator on your local machine:
 
-  ## Usage
+1. Open your terminal or command prompt.
+2. Navigate to the directory where you want to clone the project.
+3. Clone the repository:
+  ```bash
+  git clone https://github.com/squrpe/Team-Profile-Generator
+  ```
+4. Change into the project directory:
+  ```bash
+  cd Team-Profile-Generator
+  ```
+5. Install the required dependencies:
+  ```bash
+  npm install
+  ```
 
-Using node.js via the command line to prompt the main file, index.js to start running.
+## Usage
 
-  Below is an example of the program:
+1. Start the application from the command line:
+  ```bash
+  node index.js
+  ```
+2. Follow the prompts to enter information for each team member (Manager, Engineer, Intern). You can add multiple engineers and interns as needed.
+3. When finished, the application will generate an HTML file in the `./dist` folder (e.g., `index.html`).
+4. Open the generated HTML file in your browser to view your team profile. The `style.css` file in the same folder provides the styling.
 
-  ![](./src/img/teamgeneratorvid.gif)
+## Testing
 
-  [You can also access the example video by clicking here](https://drive.google.com/file/d/1yZ85BHQwhjTje5LK8dEXj_yzmpYLQH97/view)
+Unit tests are provided to ensure the core functionality of the application and its classes.
 
-  To access the newly written HTML file, open the index.html in the ./dist folder. The fitting style.css is also located in that folder.
+To run the tests:
+```bash
+npm test
+```
+You should see output indicating all test suites have passed.
 
+## Credits
 
-  ## Testing
+Project developed by Lara Grocke as part of the University of Adelaide Coding Bootcamp.
 
-Unit testing was used to create the minimum requirements this application needed to fulfill. Each testing suite goes through each class function and tests their specific methods.
+## Contact
 
-To test the application, make sure you've previously ran the command:
-
-    npm i
-    
-
-This is to install the necessary packages needed for the project. Then type and run the follow command:
-
-    npm test
-    
+  Lara Grocke - [grockelara@gmail.com](grockelara@gmail.com)
   
-For the tests to be correctly working, the output should state that 4 test suites passed, pictured below:
+  Project Link - https://github.com/squrpe/Team-Profile-Generator
 
-![](./src/img/testing.png)
+  LinkedIn - https://www.linkedin.com/in/laragrocke001
 
-  ## Licensing
-This project is licensed under the MIT license.
+## License
 
-  ## Questions:
-  If you have any questions, contact me here:
-  - Email: squrpe@example.com
-
-  And if you want to see my additonal work, check out my Github:
-  - Github: [squrpe](https://github.com/squrpe)
-
+Distributed under the MIT License. See `LICENSE.txt` for details.
 
